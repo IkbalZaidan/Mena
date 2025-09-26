@@ -55,7 +55,7 @@ class Settings {
       },
       behaviour: {
         event: Globals.menuBehaviourChange,
-        update: false,
+        update: true,
         attribute: 'data-behaviour',
       },
       layout: {

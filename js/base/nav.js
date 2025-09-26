@@ -609,11 +609,11 @@ class Nav {
         // Mobile and Desktop
         if (this.behaviourStatus !== 1) {
           // A small fix to make sure nav config at Vertical No Semi Hidden overrides theme settings.
-          if (this.verticalUnpinned !== this.verticalMobile) {
-            this.html.setAttribute('data-behaviour', 'unpinned');
-          } else {
+          // if (this.verticalUnpinned !== this.verticalMobile) {
+          //   this.html.setAttribute('data-behaviour', 'unpinned');
+          // } else {
             this.html.setAttribute('data-behaviour', 'pinned');
-          }
+          // }
           this._enablePinButton();
           this.behaviourStatus = 1;
           this._hideShowMenu();
